@@ -1,0 +1,802 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>BuddhaBikes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Advent+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Trochut:400,700" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="pre-loader"></div>
+
+<div id="container">
+    <div class="border-around"></div>
+
+    <!-- LARGE MENU -->
+    <nav class="d-none d-lg-block col-lg-12 col-xl-12 on-top override_menu text-center fixed-top" id="fixedtopmenu"
+         style="">
+        <ul>
+
+            <li><a href="#container" class="smooth"><img
+                    src="img/logo_small.png" class="menu-icon" alt="buddhabikes"><br/>BUDDHABIKES.DK</a></li>
+            <li><a href="marketplace.html"><img src="img/icons/bikeiconwhite.svg"
+                                                class="menu-icon-2" alt="recycledbikes"><br/>RECYCLED BIKES</a>
+            </li>
+            <li><a href="shop.html"><img src="img/icons/workshopicon.svg" class="menu-icon-2" alt="workshop"><br/>WORKSHOP</a></li>
+            <li><a href="about.html"><img src="img/icons/aboutbuddhabikes.svg" class="menu-icon-2" alt="about"><br/>ABOUT BUDDHA
+                BIKES</a>
+            </li>
+            <li><a href="contact.html"><img src="img/icons/contacticon.svg" class="menu-icon-2" alt="contact"><br/>CONTACT</a>
+            </li>
+            <li class="float-right"><a href="customerclub.html"><img src="img/icons/customerclub.svg"
+                                                                     class="menu-icon-2" alt="customerclub"><br/>CUSTOMER CLUB</a></li>
+            <li class="float-right"><a href="blog.html"><img src="img/icons/blogicon.svg" class="menu-icon-2" alt="blog"><br/>BLOG</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="border-left-on-top"></div>
+    <div class="border-right-on-top"></div>
+    <div class="row vid-spacing border-5 black-overlay-background" id="vid">
+
+        <video autoplay muted preload loop poster="vid/cover_poster.jpg" id="bgvid" class="">
+            <source src="vid/covervid.mp4" type="video/mp4">
+        </video>
+
+        <!-- SMALL MENU -->
+        <div class="col-12 col-xs-12 col-sm-12 col-md-12 d-lg-none no-gutters on-top background-red override_menu_small border-bottom-white-thin">
+            <div class="col-12 col-xs-12 col-sm-12 col-md-12 d-lg-none ">
+                <div class="d-flex full-width ">
+                    <div class="width-75 padding-10">
+                        <h1 class="d-none d-sm-block h1-small"><a href="index.html">BUDDHA BIKES</a></h1>
+                        <h1 class="d-sm-none h1-extra-small"><a href="index.html">BUDDHA BIKES</a></h1>
+                    </div>
+                    <ul class="width-25 padding-10 margin-right-10 margin-top-5 text-center">
+                        <li class="stopplz text-center float-right"><a href="#" class="expandbutton"><img src="img/icons/hamburger.svg"
+                                                                                   class="menu-icon-2" alt="hamburgermenu"><br/>MENU</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-block full-width copyright text-center">
+                    <ul class="slideup itsup">
+                        <li class="padding-10 border-bottom-white-thin">
+                            <a href="marketplace.html">
+                                <img src="img/icons/bikeiconwhite.svg" alt="recycledbikes" class="menu-icon-2"><br/>RECYCLED BIKES
+                            </a>
+                        </li>
+                        <li class="padding-10 border-bottom-white-thin">
+                            <a href="shop.html"><img src="img/icons/workshopicon.svg" alt="workshop" class="menu-icon-2"><br/>WORKSHOP
+                            </a>
+                        </li>
+                        <li class="padding-10 border-bottom-white-thin">
+                            <a href="about.html">
+                                <img src="img/icons/aboutbuddhabikes.svg" alt="about" class="menu-icon-2"><br/>ABOUT BUDDHA
+                                BIKES
+                            </a>
+                        </li>
+                        <li class="padding-10 border-bottom-white-thin">
+                            <a href="contact.html">
+                                <img src="img/icons/contacticon.svg" alt="contact" class="menu-icon-2"><br/>CONTACT
+                            </a>
+                        </li>
+                        <li class="padding-10 border-bottom-white-thin">
+                            <a href="customerclub.html">
+                                <img src="img/icons/customerclub.svg" alt="customerclub" class="menu-icon-2"><br/>CUSTOMER CLUB
+                            </a>
+                        </li>
+                        <li class="padding-10">
+                            <a href="blog.html">
+                                <img src="img/icons/blogicon.svg" alt="blog" class="menu-icon-2"><br/>BLOG
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- START OF CONTENT -->
+        <div class="d-none d-lg-block col-lg-12 col-xl-12 top-spacing"></div>
+        <div class="d-lg-none col-12 top-spacing-small"></div>
+        <div class="col-xl-3"></div>
+        <div class="col-xl-6 text-center">
+
+            <h1 class="d-none d-lg-block front-page-headline">Buddha Bikes</h1>
+            <h1 class="d-none d-sm-block d-lg-none front-page-headline-small">Buddha Bikes</h1>
+            <h1 class="d-sm-none front-page-headline-smaller">Buddha Bikes</h1>
+            <p class="d-none d-sm-block front-page-subheaders">
+                A LOVE FOR BIKES SINCE 2015</p>
+            <p class="d-sm-none front-page-subheaders-small">
+                A LOVE FOR BIKES SINCE 2015</p>
+            <br/>
+        </div>
+        <div class="col-xl-3"></div>
+
+
+        <div class="d-none d-md-block col-md-1 col-lg-3 col-xl-3"></div>
+        <div class="col-sm-12 col-md-10 col-lg-6 col-xl-6 opening-border-box opening-padding-top">
+            <span class="opening">OPENING HOURS</span>
+        </div>
+        <div class="d-none d-md-block col-md-1 col-lg-3 col-xl-3"></div>
+
+        <div class="d-none d-md-block col-md-1 col-lg-3 col-xl-3"></div>
+        <div class="col-sm-12 col-md-10 d-lg-none opening-hours opening-hours-border-left opening-hours-border-right">
+
+            <!-- FLEX FOR SMALL COLUMNS -->
+            <div class="flex d-none d-sm-block">
+                <div class="d-block float-left padding-10 col-2 ">
+                    <p class="p-footer">MONDAY<br/>
+                        <span class="lighter-text">08:00 - 17:30</span></p>
+                </div>
+                <div class="d-block float-left padding-10 col-2">
+                    <p class="p-footer">TUESDAY<br/>
+                        <span class="lighter-text">08:00 - 17:30</span></p>
+                </div>
+                <div class="d-block float-left padding-10 col-2">
+                    <p class="p-footer">WEDNESDAY<br/>
+                        <span class="lighter-text">08:00 - 17:30</span></p>
+                </div>
+                <div class="d-block float-left padding-10 col-2">
+                    <p class="p-footer">THURSDAY<br/>
+                        <span class="lighter-text">08:00 - 17:30</span></p>
+                </div>
+                <div class="d-block float-left padding-10 col-2">
+                    <p class="p-footer">FRIDAY<br/>
+                        <span class="lighter-text">08:00 - 17:30</span></p>
+                </div>
+                <div class="d-block float-left padding-10 col-2">
+                    <p class="p-footer">SATURDAY<br/>
+                        <span class="lighter-text">08:00 - 17:30</span></p>
+                </div>
+            </div>
+
+            <!-- FLEX FOR XS COL SIZE -->
+            <div class="flex d-sm-none">
+                <div class="d-block float-left padding-10 col-4">
+                    <p class="p-footer">MONDAY<br/>
+                        <span class="lighter-text">08:00 - 17:30</span></p>
+                </div>
+                <div class="d-block float-left padding-10 col-4">
+                    <p class="p-footer">TUESDAY<br/>
+                        <span class="lighter-text">08:00 - 17:30</span></p>
+                </div>
+                <div class="d-block float-left padding-10 col-4">
+                    <p class="p-footer">WEDNESDAY<br/>
+                        <span class="lighter-text">08:00 - 17:30</span></p>
+                </div>
+                <div class="d-block float-left padding-10 col-4">
+                    <p class="p-footer">THURSDAY<br/>
+                        <span class="lighter-text">08:00 - 17:30</span></p>
+                </div>
+                <div class="d-block float-left padding-10 col-4">
+                    <p class="p-footer">FRIDAY<br/>
+                        <span class="lighter-text">08:00 - 17:30</span></p>
+                </div>
+                <div class="d-block float-left padding-10 col-4">
+                    <p class="p-footer">SATURDAY<br/>
+                        <span class="lighter-text">08:00 - 17:30</span></p>
+                </div>
+
+            </div>
+        </div>
+        <div class="d-none d-lg-block col-lg-1 col-xl-1 opening-hours opening-hours-border-left">
+            <p class="p-footer">MONDAY<br/>
+                <span class="lighter-text">08:00 - 17:30</span></p>
+        </div>
+        <div class="d-none d-lg-block col-lg-1 col-xl-1 opening-hours">
+            <p class="p-footer">TUESDAY<br/>
+                <span class="lighter-text">08:00 - 17:30</span></p>
+        </div>
+        <div class="d-none d-lg-block col-lg-1 col-xl-1 opening-hours">
+            <p class="p-footer">WEDNESDAY<br/>
+                <span class="lighter-text">08:00 - 17:30</span></p>
+        </div>
+        <div class="d-none d-lg-block col-lg-1 col-xl-1 opening-hours">
+            <p class="p-footer">THURSDAY<br/>
+                <span class="lighter-text">08:00 - 17:30</span></p>
+        </div>
+        <div class="d-none d-lg-block col-lg-1 col-xl-1 opening-hours">
+            <p class="p-footer">FRIDAY <br/>
+                <span class="lighter-text">08:00 - 16:00</span></p>
+        </div>
+        <div class="d-none d-lg-block col-lg-1 col-xl-1 opening-hours opening-hours-border-right">
+            <p class="p-footer">SATURDAY<br/>
+                <span class="lighter-text">10:00 - 16:00</span></p>
+        </div>
+        <div class="d-none d-md-block col-md-1 col-lg-3 col-xl-3"></div>
+
+        <!-- SOME LINE -->
+        <div class="d-none d-sm-block col-sm-3 col-md-4 col-lg-5 col-xl-5"></div>
+        <div class="d-none d-sm-block col-sm-3 col-md-2 col-lg-1 col-xl-1">
+            <br/><br/>
+            <a href="marketplace.html#marketplacegrid">
+                <img src="img/icons/shop-icon-round.svg" alt="shop" class="so-me float-right"></a>
+        </div>
+        <div class="d-none d-sm-block col-sm-3 col-md-2 col-lg-1 col-xl-1">
+            <br/><br/>
+            <a href="shop.html">
+                <img src="img/icons/workshop-icon-round.svg" alt="workshop" class="so-me float-left"></a>
+        </div>
+        <div class="d-none d-sm-block col-sm-3 col-md-4 col-lg-5 col-xl-5"></div>
+
+        <!-- SOME EXTRA SMALL -->
+        <div class="d-sm-none col-4"></div>
+        <div class="d-sm-none col-2"><br/><br/>
+            <a href="marketplace.html">
+                <img src="img/icons/shop-icon-round.svg" alt="shop" class="so-me d-block mx-auto"></a>
+        </div>
+        <div class="d-sm-none col-3 d-block mx-auto">
+            <br/><br/>
+            <a href="shop.html">
+                <img src="img/icons/workshop-icon-round.svg" alt="workshop" class="so-me"></a>
+        </div>
+        <div class="d-sm-none col-3"></div>
+
+
+        <!-- SECTION SCROLLER -->
+        <div class="col-lg-12 col-xl-12 mx-auto">
+
+            <br/>
+            <p class="p-footer p-inv text-center"><span class="section-label">SCROLL DOWN</span></p><br/>
+
+            <section class="text-center">
+                <a href="#section1" class="scroll-down smooth"></a>
+
+            </section>
+
+        </div>
+    </div>
+
+    <!-- SECTION 2 -->
+    <div class="row no-gutters background-white" id="section1">
+        <div class="col-12 text-center">
+            <div class="d-none d-md-block"><br/><br/><br/></div>
+            <h1 class="d-none d-md-block">THE BIKE SHOP WHERE SOCIALLY EXPOSED YOUTHS <br/>AND OLD IRON GET A SECOND
+                CHANCE</h1><br/>
+            <h1 class="d-none d-sm-block d-md-none h1-smaller">THE BIKE SHOP WHERE SOCIALLY EXPOSED YOUTHS <br/>AND OLD
+                IRON GET A SECOND CHANCE</h1><br/>
+            <h1 class="d-sm-none h1-smallest width-75 mx-auto">THE BIKE SHOP WHERE SOCIALLY EXPOSED YOUTHS <br/>AND OLD
+                IRON GET A SECOND CHANCE</h1><br/>
+            <hr class="divider">
+            <br/><br/><br/>
+        </div>
+
+
+        <div class="col-md-1 col-lg-2 col-xl-2">
+        </div>
+        <div class="col-md-4 col-lg-4 col-xl-4">
+
+            <!-- BULLET ONE -->
+            <div class="relative-pos d-none d-xl-block">
+                <img src="img/icons/buddhabikesfamiliy.svg"
+                     class="d-block width-15 absolute-pos top-25" alt="buddhafamily"><br/>
+                <h2 class="padding-left-100"><span
+                        class="small-red-underline line-height-30">We</span> help the socially
+                    vulnerable in society</h2><br/>
+                <p class="d-block mx-auto padding-left-100 padding-right-50">We educate young socially
+                    exposed people to become competent bike mechanics, and be part of our Buddha family</p>
+            </div>
+            <div class="relative-pos d-none d-md-block d-xl-none">
+                <img src="img/icons/buddhabikesfamiliy.svg"
+                     class="d-block width-15 absolute-pos top-25" alt="buddhafamily"><br/>
+                <h2 class="padding-left-75 padding-right-50">We help the socially
+                    vulnerable in society</h2><br/>
+                <p class="d-block mx-auto padding-left-75 padding-right-10">We educate young socially
+                    exposed people to become competent bike mechanics, and be part of our Buddha family</p>
+            </div>
+            <div class="relative-pos d-md-none">
+                <img src="img/icons/buddhabikesfamiliy.svg"
+                     class="d-block width-15 absolute-pos top-25" alt="buddhafamily"><br/>
+                <h2 class="padding-left-100 padding-right-50">We help the socially
+                    vulnerable in society</h2><br/>
+                <p class="d-block mx-auto padding-left-100 padding-right-50">We educate young socially
+                    exposed people to become competent bike mechanics, and be part of our Buddha family</p>
+            </div>
+
+            <!-- BULLET TWO -->
+            <div class="relative-pos d-none d-xl-block">
+                <img src="img/icons/buddhaworldicon.svg"
+                     class="d-block width-15 absolute-pos top-25" alt="buddhaworld"><br/>
+                <h2 class="padding-left-100 line-height-30"><span
+                        class="small-red-underline">We</span> reject the
+                    use-and-throw-away culture</h2><br/>
+                <p style="padding-right: 50px;" class="d-block mx-auto padding-left-100">We reuse bicycle parts
+                    collected from all over Copenhagen. The current emphasis on just buying new items when the
+                    old breaks is detrimental to our environment.</p>
+            </div>
+            <div class="relative-pos d-none d-md-block d-xl-none">
+                <img src="img/icons/buddhaworldicon.svg"
+                     class="d-block width-15 absolute-pos top-25 padding-left-10" alt="buddhaworld"><br/>
+                <h2 class="padding-left-75 padding-right-10">We reject the
+                    use-and-throw-away culture</h2><br/>
+                <p class="d-block mx-auto padding-left-75 padding-right-10">We reuse bicycle parts
+                    collected from all over Copenhagen. The current emphasis on just buying new items when the
+                    old breaks is detrimental to our environment.</p>
+            </div>
+            <div class="relative-pos d-md-none">
+                <img src="img/icons/buddhaworldicon.svg"
+                     class="d-block width-15 absolute-pos top-25 padding-left-10" alt="buddhaworld"><br/>
+                <h2 class="padding-left-100 padding-right-50">We reject the
+                    use-and-throw-away culture</h2><br/>
+                <p class="d-block mx-auto padding-left-100 padding-right-50">We reuse bicycle parts
+                    collected from all over Copenhagen. The current emphasis on just buying new items when the
+                    old breaks is detrimental to our environment.</p>
+            </div>
+
+
+            <!-- BULLET THREE -->
+            <div class="relative-pos d-none d-lg-block">
+                <img src="img/icons/buddhabikebike.svg"
+                     class="d-block width-15 absolute-pos top-25 padding-left-10" alt="buddhaworld"><br/>
+                <h2 class="padding-left-100 line-height-30"><span
+                        class="small-red-underline">An</span>d we refurbish and build custom bikes.
+                </h2><br/>
+                <p class="d-block mx-auto padding-left-100 padding-right-50">So you can buy awesome,
+                    sustainable and unique bicycles. No project is too outlandish for us to undertake in the quest for
+                    building that truly special bike.</p>
+                <br/>
+            </div>
+
+            <div class="relative-pos d-none d-md-block d-lg-none">
+                <img src="img/icons/buddhabikebike.svg"
+                     class="d-block width-15 absolute-pos top-25 padding-left-10" alt="buddhaworld"><br/>
+                <h2 class="padding-left-75 padding-right-10">And we refurbish and build custom bikes.</h2><br/>
+                <p class="d-block mx-auto padding-left-75 padding-right-10">So you can buy awesome,
+                    sustainable and unique bicycles. No project is too outlandish for us to undertake in the quest
+                    for building that truly special bike.</p>
+            </div>
+
+            <div class="relative-pos d-md-none">
+                <img src="img/icons/buddhabikebike.svg"
+                     class="d-block width-15 absolute-pos top-25 padding-left-10 padding-right-10" alt="buddhaworld"><br/>
+                <h2 class="padding-left-100 padding-right-50">And we refurbish and build custom bikes.
+                </h2><br/>
+                <p class="d-block mx-auto padding-left-100 padding-right-50">So you can buy awesome,
+                    sustainable and unique bicycles. No project is too outlandish for us to undertake in the quest for
+                    building that truly special bike.</p>
+                <br/>
+            </div>
+
+        </div>
+        <div class="col-md-1 col-lg-1 col-xl-1"></div>
+        <div class="col-md-5 col-lg-4 col-xl-4">
+            <br/>
+            <img src="img/assorted/frontpage-page2.jpg" class="border-radius-25 width-75 d-block mx-auto" alt="fp2">
+
+        </div>
+        <div class="col-md-1 col-lg-1 col-xl-1"></div>
+
+
+        <div class="col-12 ">
+            <br/><br/><br/>
+            <section class="text-center">
+                <a href="#shopfrontpage" class="scroll-down-inv smooth"></a>
+            </section>
+        </div>
+        <div class="col-xl-12 text-center"><br/></div>
+    </div>
+
+
+    <!-- SECTION 3 -->
+    <div class="row border-5 no-gutters border-white" id="shopfrontpage">
+        <div class="shopfrontpageoverlay">
+
+            <div class="col-xl-12"><br/>
+                <br/>
+                <br/>
+                <h1 class="h1-inv d-none d-lg-block text-center">OUR REINCARNATED BIKES<br/> AND WORKSHOP</h1>
+                <h1 class="h1-inv h1-smaller d-none d-sm-block d-lg-none text-center">OUR REINCARNATED BIKES<br/> AND
+                    WORKSHOP</h1>
+                <h1 class="h1-inv h1-smallest d-sm-none text-center">OUR REINCARNATED BIKES<br/> AND WORKSHOP</h1>
+
+                <br/>
+                <hr class="divider-inv">
+                <br/><br/>
+
+                <!-- Overlay text col-lg col-xl -->
+                <div class="d-flex">
+                    <div class="d-none d-lg-flex">
+                        <div class="d-block width-20 relative-pos"></div>
+                        <div class="d-block width-40 relative-pos">
+                            <img src="img/icons/bikeiconwhite.svg" alt="marketplace"
+                                 class="width-15 absolute-pos top-25"><br/>
+                            <h2 class="h2-inv padding-left-100"><span class="small-red-underline">Se</span>e our
+                                selection
+                                of reused bikes
+                            </h2><br/>
+                            <p class="p-inv padding-left-100">All Buddha Bikes are reincernated second hand bikes. The
+                                old
+                                metal
+                                ends up at our place from all over Copenhagen and are then fully refurbished by skilled
+                                mechanics. We fix the parts that can be fixed, and replace the parts that needs
+                                replacement.
+                                We make sure every bike works properly.</p>
+                            <br/>
+                            <div class="padding-left-100">
+                                <a href="marketplace.html#marketplacegrid" class="fp-mp-btn smooth">MARKETPLACE</a>
+                            </div>
+                        </div>
+                        <div class="width-5"></div>
+                        <div class="d-block width-40 relative-pos">
+                            <img src="img/icons/workshopicon.svg" alt="workshop"
+                                 class="width-15 absolute-pos top-25"><br/>
+                            <h2 class="h2-inv padding-left-100"><span class="small-red-underline">Vi</span>sit our
+                                workshop
+                            </h2><br/>
+                            <p class="p-inv padding-left-100">Naturally, we can repair all kinds of bicycles, so when
+                                yours
+                                are
+                                broken or need service, book a time or just come by. This is true for all kinds of
+                                bikes. We
+                                used to a bit of everything.</p><br/><br/><br/>
+                            <div class="padding-left-100">
+                                <a href="shop.html" class="fp-mp-btn">WORKSHOP</a>
+                            </div>
+                        </div>
+                        <div class="d-block width-20 relative-pos"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Overlay text col-md -->
+            <div class="col-12 d-lg-none">
+                <img src="img/icons/bikeiconwhite.svg" alt="marketplace"
+                     class="width-10 d-block mx-auto"><br/>
+                <h2 class="h2-inv text-center"><span class="small-red-underline">Se</span>e our
+                    selection
+                    of reused bikes....
+                </h2><br/>
+                <p class="p-inv width-75 d-block mx-auto">All Buddha Bikes are reincernated second hand bikes. The
+                    old
+                    metal
+                    ends up at our place from all over Copenhagen and are then fully refurbished by skilled
+                    mechanics. We fix the parts that can be fixed, and replace the parts that needs
+                    replacement.
+                    We make sure every bike works properly.</p>
+                <br/>
+                <div class="text-center">
+                    <a href="marketplace.html#marketplacegrid" class="fp-mp-btn smooth">MARKETPLACE</a>
+                </div>
+                <br/><br/>
+                <img src="img/icons/workshopicon.svg" alt="workshop"
+                     class="width-10 d-block mx-auto"><br/>
+                <h2 class="h2-inv text-center"><span class="small-red-underline">Vi</span>sit our
+                    workshop
+                </h2><br/>
+                <p class="p-inv width-75 d-block mx-auto">Naturally, we can repair all kinds of bicycles, so when
+                    yours
+                    are
+                    broken or need service, book a time or just come by. This is true for all kinds of
+                    bikes. We
+                    used to a bit of everything.</p><br/><br/><br/>
+                <div class="text-center">
+                    <a href="shop.html" class="fp-mp-btn">WORKSHOP</a>
+                </div>
+            </div>
+
+
+            <!-- Last part of overlay -->
+            <div class="col-xl-12">
+                <br/><br/><br/><br/>
+                <div class="d-none d-lg-block"><br/><br/><br/>
+                    <br/></div>
+                <section class="text-center">
+                    <a href="#section3" class="scroll-down smooth"></a>
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row border-5 no-gutters background-white">
+        <div class="col-xl-12 text-center" id="section3">
+            <br/>
+            <br/>
+            <br/>
+            <h1 class="d-none d-lg-block">WANT TO HERE MORE BUDDHA BIKES <br/>AND HOW YOU CAN BECOME PART OF THE FAMILY
+            </h1>
+            <h1 class="d-none d-sm-block d-lg-none h1-smaller">WANT TO HERE MORE BUDDHA BIKES <br/>AND HOW YOU CAN
+                BECOME PART OF THE FAMILY</h1>
+            <h1 class="d-sm-none h1-smallest">WANT TO HERE MORE BUDDHA BIKES <br/>AND HOW YOU CAN BECOME PART OF THE
+                FAMILY</h1>
+
+            <br/>
+            <hr class="divider">
+            <br/><br/><br/>
+        </div>
+
+        <!-- Col md lg xl -->
+        <div class="d-none d-md-block col-md-12 col-lg-12 col-xl-12">
+            <div class="d-flex">
+                <div class="d-block width-15 relative-pos"></div>
+                <div class="d-block width-30 relative-pos d-block">
+                    <div class="small-red-underline full-width relative-pos">
+                        <img src="img/icons/aboutbuddhabikes-inv.svg" alt="customerclub"
+                             class="width-20 absolute-pos right-0"><br/><br/>
+
+                        <h2>
+                            The concept
+                        </h2>
+                    </div>
+                    <br/>
+                    <br/>
+                    <video width="100%" controls preload="metadata">
+                        <source src="vid/aboutus.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
+                    <br/>
+                </div>
+                <div class="d-block width-10 relative-pos"></div>
+                <div class="d-block width-30 relative-pos">
+                    <div class="small-red-underline full-width relative-pos">
+                        <img src="img/icons/customerclub-inv.svg" alt="customerclub"
+                             class="width-20 absolute-pos right-0"><br/><br/>
+
+                        <h2>
+                            Customer club
+                        </h2>
+                    </div>
+                    <br/><br/>
+                    <video width="100%" controls preload="metadata">
+                        <source src="vid/customerclub.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
+
+                </div>
+                <div class="d-block width-15 relative-pos"></div>
+
+            </div>
+        </div>
+
+        <!-- XS AND SM -->
+        <div class="d-md-none col-xs-12 col-sm-6">
+            <div class="small-red-underline full-width relative-pos">
+                <img src="img/icons/aboutbuddhabikes-inv.svg" alt="customerclub"
+                     class="width-20 absolute-pos right-0"><br/><br/>
+
+                <h2>
+                    The concept
+                </h2>
+            </div>
+            <br/>
+            <br/>
+            <video width="100%" controls preload="metadata" class="padding-10">
+                <source src="vid/aboutus.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+            <br/>
+        </div>
+
+        <div class="d-md-none col-xs-12 col-sm-6">
+            <div class="small-red-underline full-width relative-pos">
+                <img src="img/icons/customerclub-inv.svg" alt="customerclub"
+                     class="width-20 absolute-pos right-0"><br/><br/>
+
+                <h2>
+                    Customer club
+                </h2>
+            </div>
+            <br/><br/>
+            <video width="100%" controls preload="metadata" class="padding-10">
+                <source src="vid/customerclub.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+
+        </div>
+
+        <!-- SECTION PART-->
+        <div class="col-xl-12">
+            <br/><br/>
+            <br/><br/>
+            <section class="text-center d-block mx-auto">
+                <a href="#section4" class="scroll-down-inv smooth"></a>
+            </section>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="row border-5 no-gutters copyright">
+
+        <!-- COL LG AND XL-->
+        <div class="d-none d-lg-block col-lg-12 col-xl-12">
+            <div class="d-flex">
+                <div class="d-block width-15 relative-pos"></div>
+                <div class="d-block width-20 relative-pos">
+                    <br/><br/>
+                    <h2 class="h2-inv">ADDRESS</h2>
+                    <p class="p-footer d-block mx-auto p-inv border-top-red"><span class="padding-top-10">
+                        <br/>
+                        Buddha Bikes<br/>
+                        Emblasgade 175<br/>
+                        2100 København Ø<br/><br/>
+                        info@buddhabikes.dk<br/>
+                        Tlf. 5387 2002</span></p>
+                    <br/>
+                </div>
+                <div class="d-block width-5 relative-pos"></div>
+                <div class="d-block text-center width-20 relative-pos">
+                    <br/><br/>
+
+                    <img src="img/assorted/logo2.jpg" alt="BuddhaBikes" class="full-width border-radius-25">
+                    <br/><br/>
+                    <div>
+                        <a
+                                href="https://www.instagram.com/buddhabikes/?hl=da"
+                                target="_blank">
+                            <img src="img/icons/insta-round.svg" alt="instagram" class="so-me margin-right-10">
+                        </a>
+                        <a href="contact.html#map">
+                            <img src="img/icons/mapsicon_redcircle.svg" alt="maps" class="so-me">
+                        </a>
+                        <a
+                                href="https://www.facebook.com/BuddhabikesCPH/?hc_ref=ARSQSX-fOtxrJzIle460ZjcGGq48TBQxyXH1NkYmw2f4DorbtXhvR7fr8ZdWff_Fc40"
+                                target="_blank">
+                            <img src="img/icons/facebook-round.svg" alt="facebook" class="so-me margin-left-10">
+                        </a>
+                    </div>
+                    <br/>
+                    <p class="p-footer p-inv"><span class="section-label">BACK TO THE TOP</span></p>
+                </div>
+                <div class="d-block width-5 relative-pos"></div>
+                <div class="d-block width-20 relative-pos text-right">
+                    <br/><br/>
+                    <h2 class="h2-inv">OPENING HOURS</h2>
+                    <p class="p-footer d-block mx-auto p-inv border-top-red"><span class="padding-top-10">
+                        <br/>Monday: 8.00 - 17.30<br/>
+                        Tuesday: 8.00 - 17.30<br/>
+                        Wednesday: 8.00 - 17.30<br/>
+                        Thursday: 8.00 - 17.30<br/>
+                        Friday: 8.00 - 16.00<br/>
+                        Saturday: 10.00 - 16.00</span></p>
+                    <br/>
+                </div>
+                <div class="d-block width-15 relative-pos"></div>
+            </div>
+            <br/>
+        </div>
+
+
+        <!-- SM AND MD -->
+        <div class="d-none d-sm-block d-lg-none col-sm-2 col-md-2"></div>
+        <div class="d-none d-sm-block d-lg-none col-sm-4 col-md-4">
+            <br/><br/>
+            <h2 class="h2-inv width-75 d-block mx-auto">ADDRESS</h2>
+            <p class="p-footer width-75 d-block mx-auto p-inv border-top-red"><span class="padding-top-10">
+                        <br/>
+                        Buddha Bikes<br/>
+                        Emblasgade 175<br/>
+                        2100 København Ø<br/><br/>
+                        info@buddhabikes.dk<br/>
+                        Tlf. 5387 2002</span></p>
+            <br/>
+        </div>
+        <div class="d-none d-sm-block d-lg-none col-sm-4 col-md-4">
+            <br/><br/>
+            <h2 class="h2-inv d-block mx-auto">OPENING HOURS</h2>
+            <p class="p-footer d-block mx-auto p-inv border-top-red"><span class="padding-top-10">
+                        <br/>Monday: 8.00 - 17.30<br/>
+                        Tuesday: 8.00 - 17.30<br/>
+                        Wednesday: 8.00 - 17.30<br/>
+                        Thursday: 8.00 - 17.30<br/>
+                        Friday: 8.00 - 16.00<br/>
+                        Saturday: 10.00 - 16.00</span></p>
+            <br/>
+        </div>
+        <div class="d-none d-sm-block d-lg-none col-sm-2 col-md-2"></div>
+
+
+        <div class="d-none d-sm-block d-lg-none col-sm-4 col-md-4"></div>
+        <div class="d-none d-sm-block d-lg-none col-sm-4 col-md-4">
+            <div class="text-center">
+                <a
+                        href="https://www.instagram.com/buddhabikes/?hl=da"
+                        target="_blank">
+                    <img src="img/icons/insta-round.svg" alt="instagram" class="so-me">
+                </a>
+
+                <a href="contact.html#map">
+                    <img src="img/icons/mapsicon_redcircle.svg" alt="maps" class="so-me">
+                </a>
+
+                <a
+                        href="https://www.facebook.com/BuddhabikesCPH/?hc_ref=ARSQSX-fOtxrJzIle460ZjcGGq48TBQxyXH1NkYmw2f4DorbtXhvR7fr8ZdWff_Fc40"
+                        target="_blank">
+                    <img src="img/icons/facebook-round.svg" alt="facebook" class="so-me">
+                </a>
+                <br /><br /><br />
+                <p class="p-inv p-footer"><span class="section-label">BACK TO THE TOP</span></p>
+                <br />
+            </div>
+        </div>
+        <div class="d-none d-sm-block d-lg-none col-sm-4 col-md-4"></div>
+
+
+        <!-- XS -->
+        <div class="d-xs-block d-sm-none col-6">
+            <br/><br/>
+            <h2 class="h2-inv width-75 d-block mx-auto">ADDRESS</h2>
+            <p class="p-footer p-inv width-75 d-block mx-auto border-top-red"><span class="padding-top-10">
+                        <br/>
+                        Buddha Bikes<br/>
+                        Emblasgade 175<br/>
+                        2100 København Ø<br/><br/>
+                        info@buddhabikes.dk<br/>
+                        Tlf. 5387 2002</span></p>
+        </div>
+        <div class="d-xs-block d-sm-none col-6">
+            <br/><br/>
+            <h2 class="h2-inv width-75 d-block mx-auto">OPENING HOURS</h2>
+            <p class="p-footer d-block width-75 mx-auto p-inv border-top-red"><span class="padding-top-10">
+                        <br/>Monday: 8.00 - 17.30<br/>
+                        Tuesday: 8.00 - 17.30<br/>
+                        Wednesday: 8.00 - 17.30<br/>
+                        Thursday: 8.00 - 17.30<br/>
+                        Friday: 8.00 - 16.00<br/>
+                        Saturday: 10.00 - 16.00</span></p>
+            <br/>
+        </div>
+
+
+        <div class="d-xs-block d-sm-none col-12">
+            <div class="text-center">
+                <a
+                        href="https://www.instagram.com/buddhabikes/?hl=da"
+                        target="_blank">
+                    <img src="img/icons/insta-round.svg" alt="instagram" class="so-me">
+                </a>
+
+                <a href="contact.html#map">
+                    <img src="img/icons/mapsicon_redcircle.svg" alt="maps" class="so-me">
+                </a>
+
+                <a
+                        href="https://www.facebook.com/BuddhabikesCPH/?hc_ref=ARSQSX-fOtxrJzIle460ZjcGGq48TBQxyXH1NkYmw2f4DorbtXhvR7fr8ZdWff_Fc40"
+                        target="_blank">
+                    <img src="img/icons/facebook-round.svg" alt="facebook" class="so-me">
+                </a>
+                <br /><br /><br />
+                <p class="p-inv"><span class="section-label">BACK TO THE TOP</span></p>
+                <br />
+            </div>
+        </div>
+
+
+        <!-- SECTION SCROLLER -->
+        <div class="col-12">
+            <section class="text-center d-block mx-auto" id="section4">
+                <a href="#container" class="scroll-up smooth"></a>
+            </section>
+        </div>
+
+    </div>
+
+
+</div>
+
+
+<script src=" https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+        integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
+
+<script src="js/buddha-js.js"></script>
+
+
+</body>
+
+</html>

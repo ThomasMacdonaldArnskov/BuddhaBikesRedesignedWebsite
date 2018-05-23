@@ -1,0 +1,135 @@
+.button {
+    display: inline-block;
+    background: #A10007;
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px solid white;
+    margin: 1px;
+    color: white;
+    font-family: "Exo", sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+
+.sort-by-button-group {
+    padding-left: 10%;}
+
+.button-full {
+    width:100%;
+}
+
+.button:hover {
+    background-color: #7d0006;
+    color:#8f8f8f;
+}
+
+.button:active,
+.button.is-checked {
+    background-color: #8f8f8f;
+    color: black;
+}
+
+.button.is-checked {
+    color: white;
+}
+
+.button:active {
+}
+
+/* ---- button-group ---- */
+
+.button-group:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.button-group .button {
+    float: left;
+    border-radius: 0;
+    margin-left: 0;
+    margin-right: 1px;
+}
+
+/* ---- isotope ---- */
+
+.grid {
+    width: 100%;
+}
+
+/* clear fix */
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* ui group */
+
+.ui-group {
+    display: block;
+    line-height: 20px;
+
+}
+
+.ui-group h3 {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 32px;
+    margin-right: 0.2em;
+    font-size: 16px;
+}
+
+.ui-group .button-group {
+    display: block;
+    margin-right: 20px;
+}
+
+.selector {
+    width: 33%;
+    padding: 25px;
+    float: left;
+}
+
+.selector-override {
+    width:50%;
+    padding:15px;
+}
+
+.selector-override-smallest {
+    width:100%;
+    padding:5px;
+}
+
+.type-class{
+    font-family: "Exo", sans-serif;
+    border-bottom: 1px dotted black;
+}
+
+.type-name {
+    float: right;
+    margin-right: 10px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: lighter
+}
+
+.isotope-image {
+    width: 100%;
+    border-radius: 10px
+}
+
+.selector.round {
+    border-radius: 35px;
+}
+
+.selector.big.round {
+    border-radius: 75px;
+}
+
+.selector.red { background: red; }
+.selector.blue { background: blue; }
+.selector.yellow { background: yellow; }
+
+.selector.wide, .color-shape.big { width: 150px; }
+.selector.tall, .color-shape.big { height: 150px; }
